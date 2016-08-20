@@ -1,11 +1,11 @@
 <?php
 
-require_once 'PizzaStoreAbstract.php';
+namespace FactoryMethod;
 
 class BarnaulPizzaStore extends PizzaStoreAbstract
 {
     public function createPizza()
     {
-        return new Pizza('Барнаульская');
+        return new BarnaulPizza('Барнаульская пицца');
     }
 }

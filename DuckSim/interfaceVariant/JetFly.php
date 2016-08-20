@@ -1,11 +1,11 @@
 <?php
 
-namespace abstractVariant;
+namespace interfaceVariant;
 
 /**
  * Class JetFly
  */
-class JetFly extends AbstractFly
+class JetFly implements FlyInterface
 {
     /**
      * Implements jet fly

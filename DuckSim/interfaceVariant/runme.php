@@ -1,6 +1,6 @@
 <?php
 
-namespace abstractVariant;
+namespace interfaceVariant;
 
 require_once 'autoload.php';
 

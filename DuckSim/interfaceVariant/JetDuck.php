@@ -1,6 +1,6 @@
 <?php
 
-namespace abstractVariant;
+namespace interfaceVariant;
 
 class JetDuck extends Duck
 {

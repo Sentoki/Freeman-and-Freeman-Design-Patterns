@@ -1,11 +1,11 @@
 <?php
 
-require_once 'PizzaStoreAbstract.php';
+namespace FactoryMethod;
 
 class NovosibPizzaStore extends PizzaStoreAbstract
 {
     public function createPizza()
     {
-        echo 'NovosibPizza pizza created';
+        return new NovosibPizza('Новосибирская пицца');
     }
 }

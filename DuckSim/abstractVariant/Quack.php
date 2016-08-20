@@ -2,7 +2,6 @@
 
 namespace abstractVariant;
 
-class JetDuck extends Duck
+class Quack extends AbstractQuack
 {
-
 }

@@ -1,14 +1,14 @@
 <?php
 
-namespace FactoryMethod;
+namespace abstractFactory;
 
 abstract class PizzaStoreAbstract
 {
     abstract public function createPizza();
 
-    public function orderPizza() : PizzaAbstract
+    public function orderPizza() : Pizza
     {
-        /** @var PizzaAbstract $pizza */
+        /** @var Pizza $pizza */
         $pizza = $this->createPizza();
         $pizza->prepare();
         $pizza->bake();
