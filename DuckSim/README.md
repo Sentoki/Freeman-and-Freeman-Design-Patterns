@@ -1,1 +1,3 @@
 #Strategy pattern
+
+Composition implementation.
